@@ -1,7 +1,7 @@
 const { application } = require("express");
 const express = require("express");
 const app = express();
-const port = process.env.PORT | 1234;
+const port = process.env.PORT || 1234;
 
 
 app.listen(port,function(){
